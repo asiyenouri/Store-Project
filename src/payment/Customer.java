@@ -16,7 +16,7 @@ public abstract class Customer {
     public abstract void displayCustomerInfo();
     public void makePayment(PaymentStrategy paymentStrategy , double amount) {
         paymentStrategy.pay(amount);
-        paymentHistory.add(String.valueOf(paymentStrategy.getPaymentDetails()) + amount);
+        paymentHistory.add(String.valueOf(paymentStrategy.getPaymentDetails()) + "  " + amount);
     }
 
     public void showPaymentHistory() {

@@ -19,13 +19,17 @@ public class Main {
         System.out.println();
 
         System.out.println("Payments : ");
-        System.out.println("Amount :    Payment Method :    Customers' Info : ");
+        System.out.println("Jack's payments : ");
+        System.out.println("amount :    payment Method :    card num & holder num: ");
         customer1.makePayment( first, 900);
-        customer2.makePayment( second, 500);
-        customer3.makePayment( third, 580);
-
         customer1.makePayment( first, 200);
+        System.out.println("Julia's payments");
+        System.out.println("amount :    payment Method :    email: ");
         customer2.makePayment( second, 500);
+        customer2.makePayment( second, 500);
+        System.out.println("Jamal's payments");
+        System.out.println("amount :    payment Method :    wallet address: ");
+        customer3.makePayment( third, 580);
         customer3.makePayment( third, 800);
         System.out.println();
 

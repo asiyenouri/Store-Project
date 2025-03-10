@@ -3,12 +3,12 @@ package payment;
 public class  CreditCardPayment implements PaymentStrategy {
 
     String CardNumber;
-    String CardHolderNumberName;
+    String CardHolderName;
 
     //constructor
-    public CreditCardPayment(String CardNumber, String CardHolderNumberName) {
+    public CreditCardPayment(String CardNumber, String CardHolderName) {
         this.CardNumber = CardNumber;
-        this.CardHolderNumberName = CardHolderNumberName;
+        this.CardHolderName = CardHolderName;
     }
 
     @Override
@@ -18,6 +18,6 @@ public class  CreditCardPayment implements PaymentStrategy {
 
     @Override
     public String getPaymentDetails() {
-        return "     CreditCardPayment" + "   " + CardNumber + "  " + CardHolderNumberName + " " ;
+        return "     CreditCardPayment" + "   " + CardNumber + "  " + CardHolderName + " " ;
     }
 }
