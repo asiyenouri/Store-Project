@@ -27,8 +27,7 @@ public class Main {
         System.out.println("amount :    payment Method :    email: ");
         customer2.makePayment( second, 500);
         customer2.makePayment( second, 500);
-        System.out.println("Jamal's payments");
-        System.out.println("amount :    payment Method :    wallet address: ");
+
         customer3.makePayment( third, 580);
         customer3.makePayment( third, 800);
         System.out.println();
