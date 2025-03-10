@@ -19,7 +19,7 @@ public class Main {
         System.out.println();
 
         System.out.println("Payments : ");
-        System.out.println("Jack's payments : ");
+        System.out.println("Jack's payments");
         System.out.println("amount :    payment Method :    card num & holder num: ");
         customer1.makePayment( first, 900);
         customer1.makePayment( first, 200);
